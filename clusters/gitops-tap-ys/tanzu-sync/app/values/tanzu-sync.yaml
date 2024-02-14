@@ -1,0 +1,7 @@
+---
+git:
+  url: https://github.com/sethiyash/gitops-ri.git
+  ref: origin/main
+  sub_path: clusters/gitops-tap-ys/cluster-config
+tap_package_repository:
+  oci_repository: TAP-PACKAGE-OCI-REPOSITORY

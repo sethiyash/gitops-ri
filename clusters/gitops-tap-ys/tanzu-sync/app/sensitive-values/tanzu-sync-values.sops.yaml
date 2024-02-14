@@ -1,0 +1,31 @@
+secrets:
+    sops:
+        age_key: ENC[AES256_GCM,data:klVIRwq0BNnUPh3oynu2kdViTd9hFFpuaP7iwbfxRJK1nVwxC6NWpTnz79VmddqvfRkZDGWaI4Lfpz1Z868tj5E8q6GUSKIJ6fVad2GvJStkIudJ72pv39maWIwvxdGV+A0UWzQk8PemmNSB7CZXmz573ACWbEinnhNh1ZLPJN1LctMe1dyZJL6BbHryrhmvgjifKOCnxQhJlIwuvPWZKcjATi4ScaS716cxjSBg6oVhbMOhYArCiwEesLZz,iv:swxM7FRz1k/wYA8xMVjBIBoZ2XtPXRVql+RkpoX9J+Y=,tag:wtADU9iYZHlPu6BEhuG9dA==,type:str]
+        registry:
+            hostname: ENC[AES256_GCM,data:+XaYrV8kcCX6xwZ9q0HGfSPvZt4SRARDSnlrtNVzAVgGLG/06qNnoTe2uZ/V1IAJSd60vgrR7ohA/o5Ty2Epu01SjCjidOm54X3Pjg==,iv:D96H9yfP5bAqR/Hg27WUN3gp4koqzTRGbqo+KVNALXU=,tag:RtCse1Z88LluBpreaYWiKQ==,type:str]
+            username: ENC[AES256_GCM,data:jTXm6B00rA4=,iv:u0TvxLCSztWHZKt5rQtvv7LCwQqM0zmbUrqV9RoJW4o=,tag:sZjlQJYHAgVCu5ANQN0hAg==,type:str]
+            password: ENC[AES256_GCM,data:79CaDxUsT2ZcQCOQ4mM=,iv:CJrMlhYqelsYu1gwRt+Z77bxkuwm8bsnM+Gv5c2oYbo=,tag:v6O9+ZDtWmbc6H+mdMurJA==,type:str]
+        git:
+            basic_auth:
+                username: ENC[AES256_GCM,data:wLYo9Gnv8QBM,iv:qkT9sV9GIZ4idvG5ia9IquuHKeF2oMmWFCmpGyPxOIs=,tag:TKW2tIjdubdtKn8tGfuHGQ==,type:str]
+                password: ENC[AES256_GCM,data:7viau59eh2qd3LhqU4Hy1eRtzBDAx3Eem/kDjv9EnM7qDiYlW+aQfbX6JbBM8taMWTwG/vwyTxEUGLAhvicipptgH4A4B0Bm7l9xUvF0FgdsebWBc4rMQObJDiSr,iv:H7NqfVN/V6GkCgaRr55TAu+jP92SPNVN60giOokN8q8=,tag:37aiYREajsVAEHXlwm2QMA==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1uz3qsvhwwhu7f794d5lpqkuaw675auq0zph004dc98r3v7n5ac0q82knqx
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBkV2FYa1VQc1d1WlNZVkRE
+            Q3FCNUUrRlRxNmtFenF6Skw0NWZLSzlEOUhVCjNqR09hRUlubndhVVYzeDJOTkxR
+            VUNabUJDUTZZSUpZSFZBamo0KzJRa0EKLS0tIHFrSDd4OHVpSUg4MEFJLzNHRW1v
+            UFcxN0dlUFVGaE9ENll2bVMrVHVKNmsKL5hmULt2Ta1dHsICpkf0CMa3XsEs8EbX
+            SugpVOb3xXRJ4fhlsugO+T/OzYcXbaUKtTYAosaqUeGz1UxRNoRFBA==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2024-02-14T11:30:22Z"
+    mac: ENC[AES256_GCM,data:u5kXO7jjH00VEzdzADWX9F96asHcH6SB6aA1duuvB5//JLYzv8f4q/gtJMR0iq0CNnkb2Ar54S3wYnFJzTx5yRO7LzDYTubXv1ZLIzdv6AneYr0U+Fx/PFrh1avX7r0hqK0mcb61CQZEBffYkRdfKMBRB4Y1qFnSOOjUwNYlWC4=,iv:1uBTj51ivWmjXHCbJ766AmW3inf1FE8FgZKh/WumlJA=,tag:LoUW1a3pMNFCfRP2bFNEpQ==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.8.1
