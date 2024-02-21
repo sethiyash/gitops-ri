@@ -1,21 +1,14 @@
 ---
 tap_install:
   values:
-    profile: build
-    ceip_policy_disclosed: TRUE
-    supply_chain: basic
-    namespace_provisioner:
-      controller: true
-      additional_sources:
-  # Add templated Grype scan policy and java Tekton pipeline
-      - git:
-          ref: origin/main
-          subPath: namespace-provisioner-gitops-examples/custom-resources/testing-scanning-supplychain
-          url: https://github.com/sethiyash/application-accelerator-samples.git
-        path: _ytt_lib/testingscanning
-      # Add templated snyk scan policy
-      - git:
-          ref: origin/main
-          subPath: namespace-provisioner-gitops-examples/custom-resources/scanpolicies
-          url: https://github.com/sethiyash/application-accelerator-samples.git
-        path: _ytt_lib/scanpolicies
+    profile: view
+    ceip_policy_disclosed: true
+    
+    contour:
+      envoy:
+        service:
+          type: LoadBalancer
+
+    tap_telemetry:
+      customer_entitlement_account_number: "123456789"
+      installed_for_vmware_internal_use: "true"
