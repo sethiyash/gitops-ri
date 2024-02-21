@@ -1,6 +1,3 @@
 tap_install:
   package_repository:
-    oci_repository: tapgitops.azurecr.io/ys-tap-gitops/tap-packages
-  version:
-    package_repo_bundle_tag: "1.7.3" # Populate these values with the latest patch version.
-    package_version: "1.7.3"
+    oci_repository: registry.tanzu.vmware.com/tanzu-application-platform/tap-packages
